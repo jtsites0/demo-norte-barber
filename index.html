@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Projeto demonstrativo de site para barbearia criado pela JT Sites." />
+  <meta name="theme-color" content="#0b0a09" />
+  <title>NØRTE Barber — Projeto demonstrativo</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <div class="demo-ribbon">PROJETO DEMONSTRATIVO • MARCA FICTÍCIA • JT SITES</div>
+
+  <header class="header">
+    <a class="logo" href="#inicio" aria-label="NØRTE Barber">NØRTE<span>BARBER</span></a>
+    <nav class="nav" id="nav">
+      <a href="#servicos">Serviços</a>
+      <a href="#conceito">Conceito</a>
+      <a href="#agenda">Agenda</a>
+      <button class="nav-cta" type="button" data-open-booking>Simular agendamento</button>
+    </nav>
+    <button class="menu" type="button" aria-label="Abrir menu" aria-expanded="false"><i></i><i></i></button>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="grain"></div>
+      <div class="hero-copy">
+        <p class="kicker">BARBEARIA CONTEMPORÂNEA • CONCEITO DEMO</p>
+        <h1>PRECISÃO<br><em>SEM EXCESSO.</em></h1>
+        <p class="hero-text">Uma direção visual premium para barbearias que querem vender experiência, identidade e conveniência — antes mesmo do cliente sentar na cadeira.</p>
+        <div class="hero-actions">
+          <button class="btn primary" type="button" data-open-booking>Simular agendamento ↗</button>
+          <a class="btn ghost" href="#servicos">Explorar o conceito</a>
+        </div>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="blade blade-a"></div>
+        <div class="blade blade-b"></div>
+        <div class="stamp"><span>EST.</span><b>NØRTE</b><small>DEMO / 2026</small></div>
+        <div class="vertical">CUT • SHAVE • STYLE • CUT • SHAVE • STYLE</div>
+      </div>
+    </section>
+
+    <section class="marquee" aria-label="Diferenciais visuais"><div>AGENDE FÁCIL ✦ IDENTIDADE FORTE ✦ MOBILE FIRST ✦ EXPERIÊNCIA PREMIUM ✦ AGENDE FÁCIL ✦ IDENTIDADE FORTE ✦</div></section>
+
+    <section class="services section" id="servicos">
+      <div class="section-head">
+        <span>01 / SERVIÇOS</span>
+        <h2>MENU ENXUTO.<br>DECISÃO RÁPIDA.</h2>
+        <p>Valores abaixo são apenas ilustrativos para demonstrar como preços e serviços poderiam ser apresentados.</p>
+      </div>
+      <div class="service-list">
+        <article><div class="service-num">01</div><div><h3>Corte assinatura</h3><p>Consultoria rápida de estilo, acabamento e finalização.</p></div><strong>R$ 68*</strong></article>
+        <article><div class="service-num">02</div><div><h3>Barba ritual</h3><p>Desenho, toalha quente e acabamento detalhado.</p></div><strong>R$ 54*</strong></article>
+        <article><div class="service-num">03</div><div><h3>Combo NØRTE</h3><p>Corte + barba em uma experiência completa.</p></div><strong>R$ 108*</strong></article>
+      </div>
+      <p class="fine">*Preços fictícios utilizados exclusivamente para esta demonstração.</p>
+    </section>
+
+    <section class="concept" id="conceito">
+      <div class="concept-panel panel-a"><span>02 / POSICIONAMENTO</span><h2>NÃO É SÓ<br>UM CORTE.</h2></div>
+      <div class="concept-panel panel-b">
+        <p class="quote">“A página precisa parecer tão bem acabada quanto o serviço que ela vende.”</p>
+        <div class="metrics">
+          <div><b>01</b><span>CTA principal sempre evidente</span></div>
+          <div><b>02</b><span>Leitura rápida no celular</span></div>
+          <div><b>03</b><span>Visual memorável sem poluição</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="lookbook section">
+      <div class="section-head compact"><span>03 / DIREÇÃO VISUAL</span><h2>BRONZE, PRETO<br>E TIPOGRAFIA.</h2></div>
+      <div class="look-grid">
+        <div class="look look-1"><span>01</span><b>TEXTURA</b></div>
+        <div class="look look-2"><span>02</span><b>CONTRASTE</b></div>
+        <div class="look look-3"><span>03</span><b>RITMO</b></div>
+      </div>
+    </section>
+
+    <section class="agenda" id="agenda">
+      <div><span>04 / CONVERSÃO</span><h2>DO SCROLL<br>PARA A CADEIRA.</h2></div>
+      <div class="agenda-card">
+        <p>Um site comercial precisa terminar com uma próxima ação óbvia.</p>
+        <button class="btn primary wide" type="button" data-open-booking>Testar fluxo de agendamento</button>
+        <small>Fluxo demonstrativo. Nenhum horário real é reservado.</small>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <a class="logo" href="#inicio">NØRTE<span>BARBER</span></a>
+    <p>Marca fictícia criada exclusivamente para portfólio.</p>
+    <a href="https://jtsites0.github.io/demo-site/" target="_blank" rel="noopener noreferrer">Projeto por JT Sites ↗</a>
+  </footer>
+
+  <dialog class="booking" id="booking">
+    <button class="booking-close" type="button" aria-label="Fechar">×</button>
+    <span>AGENDAMENTO • DEMONSTRAÇÃO</span>
+    <h2>Escolha uma experiência</h2>
+    <div class="booking-options">
+      <button type="button">Corte assinatura <b>45 min</b></button>
+      <button type="button">Barba ritual <b>35 min</b></button>
+      <button type="button">Combo NØRTE <b>75 min</b></button>
+    </div>
+    <p>Este projeto é apenas uma demonstração visual. Nenhum agendamento será realizado.</p>
+  </dialog>
+
+  <script src="./script.js" defer></script>
+</body>
+</html>
